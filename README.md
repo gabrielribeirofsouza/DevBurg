@@ -1,12 +1,23 @@
-# React + Vite
+DevBurg
+Sobre o projeto
+DevBurg é um site de hamburgueria criado como exercício de estudo para praticar desenvolvimento front-end com React. O projeto simula uma interface de loja online com funcionalidades essenciais como um carrinho de compras dinâmico.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades
+Interface totalmente construída com React.
 
-Currently, two official plugins are available:
+Carrinho de compras dinâmico que atualiza itens e quantidades em tempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gerenciamento de estado usando useState para controle do carrinho e interação do usuário.
 
-## Expanding the ESLint configuration
+Estilização modular utilizando CSS Modules para manter o escopo dos estilos isolado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Layout responsivo e amigável para uma boa experiência de usuário.
+
+Tecnologias utilizadas
+React (JavaScript)
+
+CSS Modules
+
+React Hooks (useState)
+
+
