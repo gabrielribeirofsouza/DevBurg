@@ -15,7 +15,7 @@
 .imgCard{
 width: 100%;
 position: relative;
-top: 40px;
+top: 10px;
 
 }
 .infoCard{
@@ -28,6 +28,7 @@ top: 40px;
     font-size: 1.2rem;
     color: white;
     margin-bottom: 20px;
+    margin-top: 10px;
 } 
 .preco{
     font-size: 1.2rem;

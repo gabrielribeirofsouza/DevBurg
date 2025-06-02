@@ -1,0 +1,43 @@
+.containerBanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    align-items: center;
+    background-color: #FF7F3F;
+    margin-bottom: 150px;
+}
+.infoBanner{
+    align-items: center;
+    justify-self: center;
+    padding: 5%;
+}
+.infoBanner > p{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.porcentos{
+    color: white;
+    font-size: 4rem;
+}
+.offSpan{
+    color: white;
+    font-size: 2rem;
+    margin-left: 4%;
+    text-transform: uppercase;
+}
+.img{
+    width: 90%;
+}
+.btnComprar{
+    display: block;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #FF5722;
+}
+.btnComprar:hover{
+    cursor: pointer;
+}

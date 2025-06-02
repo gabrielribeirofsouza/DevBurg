@@ -1,0 +1,33 @@
+.containerSobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgSobre{
+    background-color: #F44336;
+   align-items: center;
+   width: 400px;
+   height: 262px;
+   border-radius: 20px;
+   
+}
+.infoContainer{
+
+    white-space: pre-wrap;
+}
+.pApresentacao{
+    
+    width: 500px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.icon{
+    margin-right: 10px;
+}
+.imgSobre > img {
+    width: 150%;
+    position: relative;
+    right: 50%;
+    top: -139%;
+}

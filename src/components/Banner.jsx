@@ -1,14 +1,16 @@
+import imgBanner from '../assets/banner.png'
+import styles from './Banner.module.css'
 function Banner(){
     return(
-        <div id="containerBanner">
-            <div id="infoBanner">
+        <div className={styles.containerBanner}>
+            <div className={styles.infoBanner}>
             <p>Não perca tempo, garanta já o seu</p>
-            <span>50%</span>
-            <span>off</span>
-            <button>COMPRE AQUI</button>
+            <span className={styles.porcentos}>50%</span>
+            <span className={styles.offSpan}>off</span>
+            <button className={styles.btnComprar}>COMPRE AQUI</button>
             </div>
             <div id="imageBanner">
-                
+                <img src={imgBanner} alt="" className={styles.img} />
             </div>
         </div>
     )
