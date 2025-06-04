@@ -45,7 +45,14 @@ top: 10px;
     position: relative;
     left: 80px;
     top: 10px;
-}
-.like:hover{
     cursor: pointer;
 }
+.fav{
+    color: red;
+    position: relative;
+
+    left: 80px;
+    top: 10px;
+    cursor: pointer;
+}
+
