@@ -1,7 +1,54 @@
 .containerCart{
     background-color: white;
     z-index: 1;
-    width: 500px;
-    height: 100vh;
+    width: 100%;
+    max-width: 330px;
+    height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 20px;
+   position: fixed;
+   top: 60px;
+   right: 0px;
+   z-index: 1;
+    padding: 20px;
+   overflow-y: scroll;
+   transform: translate(110%, 0);
+   transition: all 400ms ease;
+}
+.itensCart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerResumoCart{
+    position: fixed;
+    bottom: 0;
+}
+.resumoCart{
    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnFinalizar{
+    background: rgba(0, 0, 0, 0.062);
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.iconConfirm{
+    color: green;
+    font-size: 1.2rem;
+
+}
+.containerCart .itensCart:last-child{
+    border-bottom: none;
+}
+.cartActive{
+    transform: translate(0,0);
 }

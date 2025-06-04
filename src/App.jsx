@@ -18,6 +18,8 @@ import cardImg from './assets/cardImg.png'
 
 //styleapp
 import './App.css'
+import Cart from "./components/Cart"
+import Provider from "./context/Provider"
 
 
 
@@ -25,8 +27,8 @@ function App() {
  
 
   return (
-    <> 
-      <NavBar />
+    <Provider> 
+      <NavBar/>
       <MainContent/>
       <div id="container-cards">
         <h1>QUERIDINHOS <FontAwesomeIcon icon={faFire} /></h1>
@@ -34,9 +36,11 @@ function App() {
         <span id="apresent-hamburg">Esses são os hambúrgueres mais pedidos pela galera. Sabor, suculência e combinação perfeita em cada mordida!
       </span>
         <section id="cards">
-      <Card nome='React Burg' preco='20,00 R$' img={cardImg}/>
-      <Card nome='Angular Burg' preco='25,00 R$' img={cardImg}/>
-      <Card nome='Vue Burg' preco='15,00 R$' img={cardImg}/>
+      <Card nome='React Burg' preco='R$ 20,00' img={cardImg}/>
+      <Card nome='Angular Burg' preco='R$ 25,00' img={cardImg}/>
+      <Card nome='Vue Burg' preco='R$ 40,00' img={cardImg}/>
+      
+      
         </section>
       </div>
       <Banner />
@@ -52,7 +56,8 @@ function App() {
           <WorkCard iconWork={faUtensils} iconButton={faCheck} msg={'Seu pedido chega quentinho e saboroso! Agora é só aproveitar e se deliciar.'}/>
         </div>
       </section>
-    </>
+      <Cart />
+    </Provider>
   )
 }
 

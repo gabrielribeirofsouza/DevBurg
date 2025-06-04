@@ -3,11 +3,18 @@ import { faBurger } from '@fortawesome/free-solid-svg-icons';
 
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import styles from './NavBar.module.css'
-import Cart from './Cart';
+import { useContext, useState } from 'react';
+import appContext from '../context/AppContext';
+
 
 function NavBar(){
+    
+    const {cartItems, cartVisible, setCartVisible } = useContext(appContext)
+
+    const handleCart = () =>{
+    setCartVisible(!cartVisible)
+    }
     return(
-        
 
         <div className={styles.container}>
             <div className= {styles.containerIcon}>
@@ -22,9 +29,10 @@ function NavBar(){
 
             <div className={styles.containerCart}>
             <button className={styles.button}>
-            <FontAwesomeIcon icon={faCartShopping} className={styles.cart}/>
-            <p className={styles.countItemCar}>1</p>    
+            <FontAwesomeIcon icon={faCartShopping} className={styles.cart} onClick={handleCart}/>
+
             </button>
+            {cartItems.length > 0 ? <p className={styles.countItemCar}>{cartItems.length}</p> : <span></span> }  
             </div>
             </div>
         </div>

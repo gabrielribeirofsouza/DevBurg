@@ -1,0 +1,28 @@
+.containerItems{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+   padding-bottom: 10px;
+
+}
+.containerInfoItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.containerImageItem{
+    width: 80px;
+}
+.containerImageItem > img {
+    width: 100%;
+}
+.nomeItem{
+color: rgb(0, 0, 0, 0.5);
+
+}
+.trashItem{
+    color: red;
+    cursor: pointer;
+}
