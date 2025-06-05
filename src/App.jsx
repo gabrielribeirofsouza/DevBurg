@@ -20,6 +20,7 @@ import cardImg from './assets/cardImg.png'
 import './App.css'
 import Cart from "./components/Cart"
 import Provider from "./context/Provider"
+import Footer from "./components/Footer"
 
 
 
@@ -57,7 +58,9 @@ function App() {
         </div>
       </section>
       <Cart />
+      <Footer />
     </Provider>
+  
   )
 }
 

@@ -19,7 +19,7 @@ function NavBar(){
         <div className={styles.container}>
             <div className= {styles.containerIcon}>
             <FontAwesomeIcon icon={faBurger} className={styles.icon}/> 
-            <span>BURGER</span>
+            <span>DevBurg</span>
             </div>
             <div className={styles.containerButtons}>
             <button className={styles.button}>Inicio</button>

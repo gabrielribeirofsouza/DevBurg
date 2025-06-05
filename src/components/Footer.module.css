@@ -1,0 +1,81 @@
+footer{
+    background-color: 	#F44336;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 40px;
+    margin-top: 200px;
+    gap: 40px;
+    justify-content: space-between;
+    color: white;
+}
+.containerApresent{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 40px;
+}
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.containerIcon{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 20px;
+}
+.containerSocialService{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.containerService, .containerSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.containerOptionsService, .containerOptionsSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerNewLester{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.containerInput{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.Input {
+    width: 50%;
+    padding: 2px;
+
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+}::placeholder{
+    color: #F44336;
+    padding: 5px;
+}
+
+.checkButton{
+   background-color: rgb(255, 255, 255);
+   border: none;
+    border-radius: 50px;
+    padding: 2px;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    color: green;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
