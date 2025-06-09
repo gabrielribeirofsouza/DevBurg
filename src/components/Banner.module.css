@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #FF7F3F;
     margin-bottom: 150px;
+    overflow-x: hidden;
 }
 .infoBanner{
     align-items: center;
