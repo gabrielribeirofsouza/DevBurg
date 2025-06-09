@@ -1,5 +1,5 @@
 //components
-import NavBar from "./components/navBar"
+import NavBar from "./components/NavBar.jsx"
 import MainContent from "./components/MainContent"
 import Card from "./components/Card"
 import Banner from "./components/Banner"
