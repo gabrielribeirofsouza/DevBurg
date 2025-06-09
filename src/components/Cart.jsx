@@ -19,7 +19,7 @@ function Cart(){
         currency: 'BRL'
     })
     return(
-        <div className={`${styles.containerCart} ${cartVisible ? styles.cartActive : styles.cartOff}`}>
+        <div className={`${styles.containerCart} ${cartVisible ? styles.cartActive : '' }`}>
             <div className={styles.itensCart}>
               {
               cartItems.map((Item, index) =>{

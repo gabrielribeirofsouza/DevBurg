@@ -51,9 +51,7 @@
 .cartActive{
     transform: translate(0,0);
 }
-.cartOff{
-    display: none;
-}
+
 @media (max-width: 768px) {
     .containerCart{
         

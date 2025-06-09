@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #FF7F3F;
     margin-bottom: 150px;
-   
+   width: 100vw;
 }
 .infoBanner{
     align-items: center;
@@ -52,6 +52,7 @@
     .containerBanner{
            display: flex;
            flex-direction: column-reverse;
+           width: 100vw;
     }
  .infoBanner{
     margin-left: 10%;
