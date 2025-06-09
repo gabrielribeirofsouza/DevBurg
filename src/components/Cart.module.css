@@ -52,3 +52,9 @@
 .cartActive{
     transform: translate(0,0);
 }
+@media (max-width: 768px) {
+    .containerCart{
+        
+        height: 87vh;
+    }
+}

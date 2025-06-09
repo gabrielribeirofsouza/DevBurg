@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-right: 10%;
+    margin-left: 25%;
 }
 .containerIcon{
     display: flex;
@@ -77,4 +77,12 @@
    background-color: white;
    
    
+}
+@media (max-width: 768px) {
+    .containerButtons{
+        display: none;
+    }
+    .cart{
+        top: 8px;
+    }
 }

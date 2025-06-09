@@ -79,3 +79,10 @@ grid-template-columns: 1fr 1fr;
     justify-content: center;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    footer{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+}

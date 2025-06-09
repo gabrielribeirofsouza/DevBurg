@@ -22,8 +22,8 @@ function Cart(){
         <div className={`${styles.containerCart} ${cartVisible ? styles.cartActive : ''}`}>
             <div className={styles.itensCart}>
               {
-              cartItems.map((cartItem, index) =>{
-               return <CartItem key={index} data={cartItem} index={index} />
+              cartItems.map((Item, index) =>{
+               return <CartItem key={index} data={Item} index={index} />
               })
               }
             </div>

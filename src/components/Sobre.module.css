@@ -1,5 +1,5 @@
 .containerSobre{
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -30,4 +30,42 @@
     position: relative;
     right: 50%;
     top: -139%;
+}
+@media  (max-width: 360px) {
+ .containerSobre{
+    flex-direction: column-reverse;
+    padding: 0px  10% 0px 10%;
+    gap: 50px;
+}
+.imgSobre{
+    width: 100%;
+}
+.imgSobre > img{
+    top: -72%;
+}
+.pApresentacao {
+    width: 100%;
+}
+}
+
+@media  (min-width: 361px) and (max-width : 414px){
+.containerSobre{
+    flex-direction: column-reverse;
+    padding: 0px  10% 0px 10%;
+    gap: 50px;
+}
+.pApresentacao{
+    width: 100%;
+}
+.imgSobre{
+    width: 100%;
+}
+.imgSobre > img{
+    top: -86.5%;
+}
+}
+@media (min-width : 414px) and (max-width : 768px) {
+    .imgSobre > img{
+        top: -98%;
+    }
 }

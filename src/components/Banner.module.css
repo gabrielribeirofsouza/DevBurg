@@ -15,6 +15,7 @@
     font-size: 1.2rem;
     color: white;
     margin-bottom: 10px;
+    
 }
 .porcentos{
     color: white;
@@ -40,4 +41,16 @@
 }
 .btnComprar:hover{
     cursor: pointer;
+}
+@media (max-width: 768px) {
+    .containerBanner{
+           display: flex;
+           flex-direction: column-reverse;
+    }
+ .infoBanner{
+    margin-left: 10%;
+ }
+}
+.img{
+    width: 100%;
 }

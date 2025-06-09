@@ -27,13 +27,13 @@ function NavBar(){
             <button className={styles.button}>Sobre</button>
             <button className={styles.button}>Produtos</button>
 
+            </div>
             <div className={styles.containerCart}>
             <button className={styles.button}>
             <FontAwesomeIcon icon={faCartShopping} className={styles.cart} onClick={handleCart}/>
 
             </button>
             {cartItems.length > 0 ? <p className={styles.countItemCar}>{cartItems.length}</p> : <span></span> }  
-            </div>
             </div>
         </div>
 
