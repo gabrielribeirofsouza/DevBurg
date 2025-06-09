@@ -14,7 +14,7 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons"
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons"
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons"
 import { faCheck } from "@fortawesome/free-solid-svg-icons"
-import cardImg from './assets/cardImg.png'
+import cardImg from './assets/cardimagem.png'
 
 //styleapp
 import './App.css'
