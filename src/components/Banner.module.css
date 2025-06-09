@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #FF7F3F;
     margin-bottom: 150px;
-    overflow-x: hidden;
+   
 }
 .infoBanner{
     align-items: center;
@@ -28,7 +28,12 @@
     margin-left: 4%;
     text-transform: uppercase;
 }
+.containerImg{
+    width: 100%;
+}
 .img{
+    position: relative;
+    z-index: 9999;
     width: 90%;
 }
 .btnComprar{

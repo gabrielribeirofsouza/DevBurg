@@ -9,7 +9,7 @@ function Banner(){
             <span className={styles.offSpan}>off</span>
             <button className={styles.btnComprar}>COMPRE AQUI</button>
             </div>
-            <div id="imageBanner">
+            <div className={styles.containerImg}>
                 <img src={imgBanner} alt="" className={styles.img} />
             </div>
         </div>
