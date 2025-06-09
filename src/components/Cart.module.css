@@ -1,6 +1,6 @@
 .containerCart{
     background-color: white;
-    z-index: 1;
+   
     max-width: 330px;
     height: 90vh;
    display: flex;
@@ -13,8 +13,7 @@
    z-index: 9999999999999999999;
     padding: 20px;
    overflow-y: scroll;
-   transform: translate(110%, 0);
-   transition: all 400ms ease;
+   
 }
 .itensCart{
     display: flex;
@@ -48,10 +47,9 @@
 .containerCart .itensCart:last-child{
     border-bottom: none;
 }
-.cartActive{
-    transform: translate(0,0);
+.cartOff{
+    display: none;
 }
-
 @media (max-width: 768px) {
     .containerCart{
         
