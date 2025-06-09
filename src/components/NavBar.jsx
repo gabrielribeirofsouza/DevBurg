@@ -12,7 +12,7 @@ function NavBar(){
     const {cartItems, cartVisible, setCartVisible } = useContext(appContext)
 
     const handleCart = () =>{
-    setCartVisible(!cartVisible)
+    setCartVisible(!cartVisible)    
     }
     return(
 
