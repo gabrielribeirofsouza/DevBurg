@@ -1,7 +1,7 @@
 
 body{
    background-color:     #ffc59b;
-   
+   overflow-x: hidden;
 }
 #cards{
     padding: 10px;
