@@ -29,6 +29,8 @@ function App() {
 
   return (
     <Provider> 
+      <div id="container">
+
       <NavBar/>
       <MainContent/>
       <div id="container-cards">
@@ -59,6 +61,7 @@ function App() {
       </section>
       <Cart />
       <Footer />
+      </div>
     </Provider>
   
   )
