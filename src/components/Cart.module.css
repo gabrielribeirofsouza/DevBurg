@@ -1,6 +1,6 @@
 .containerCart{
     background-color: white;
-   
+    z-index: 1;
     max-width: 330px;
     height: 90vh;
    display: flex;
@@ -8,11 +8,13 @@
    justify-content: space-between;
    gap: 20px;
    position: fixed;
-   top: 60px;
-   right: 0px;
+   top: 10%;
+   
+   right: 0;
    z-index: 9999999999999999999;
     padding: 20px;
    overflow-y: scroll;
+   
    
 }
 .itensCart{
@@ -46,6 +48,9 @@
 }
 .containerCart .itensCart:last-child{
     border-bottom: none;
+}
+.cartActive{
+    transform: translate(0,0);
 }
 .cartOff{
     display: none;

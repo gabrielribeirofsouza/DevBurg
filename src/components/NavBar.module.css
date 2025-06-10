@@ -55,22 +55,19 @@
     color: white;
     font-size: 1.8rem;
     margin-right: 10px;
-   position: fixed;
-    top: 15px;
-    right: 0px;
     padding: 15px;
 }
 .countItemCar{
     font-size: 13px;
-   position: fixed;
+    position: relative;
    display: flex;
    align-items: center;
    justify-content: center;
    padding: 5px;
    width: 15px;
    height: 15px;
-   top: 15px;
-   right: 60px;
+   top: -4px;
+   right: 80px;
    font-weight: bold;
    border-radius: 50px;
    color: red;
@@ -82,7 +79,14 @@
     .containerButtons{
         display: none;
     }
-    .cart{
-        top: 8px;
-    }
+   
+   .container{
+    width: 90vw;
+   }
+   .containerCart{
+    position: fixed;
+    top: 13px;
+    right: 10px;
+    margin-left: 0px;
+   }
 }

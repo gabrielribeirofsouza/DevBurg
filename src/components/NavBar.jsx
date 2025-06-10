@@ -21,6 +21,7 @@ function NavBar(){
             <FontAwesomeIcon icon={faBurger} className={styles.icon}/> 
             <span>DevBurg</span>
             </div>
+
             <div className={styles.containerButtons}>
             <button className={styles.button}>Inicio</button>
             <button className={styles.button}>Contato</button>
@@ -28,6 +29,7 @@ function NavBar(){
             <button className={styles.button}>Produtos</button>
 
             </div>
+            
             <div className={styles.containerCart}>
             <button className={styles.button}>
             <FontAwesomeIcon icon={faCartShopping} className={styles.cart} onClick={handleCart}/>
